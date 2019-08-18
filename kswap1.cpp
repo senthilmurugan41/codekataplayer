@@ -11,10 +11,16 @@ int main()
   {
       cin>>a[i];
   }
+  if(n<k)
+  {
+      for(int i=0;i<n;i++)
+        cout<<a[i]<<" ";
+  }
+  else{
   for(int i=0;i<k;i++)
   {
       swap(a[i],a[i+1]);
   }
   for(int i=0;i<n;i++)
-  cout<<a[i]<<" ";
+  cout<<a[i]<<" ";}
 }
