@@ -10,10 +10,10 @@ int main()
         cin>>a[i];
     for(int j=0;j<n1;j++)
         cin>>b[j];
-    for(int i=0;i<n1;i++)
+    for(int i=0;i<n;i++)
     {
         f=1;
-        for(int j=0;j<n;j++)
+        for(int j=0;j<n1;j++)
         {
             if(a[i]==b[j])
             {
